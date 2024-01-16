@@ -1,0 +1,267 @@
+* {
+    font-family:
+}
+
+.orange {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.hero {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar {
+    display: flex;
+    gap: 44px;
+    list-style: none;
+
+}
+
+.bar a {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hmm a {
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+bacgrnd img {
+
+    background-size: cover;
+    width: 150%;
+
+
+}
+
+.text-on-img {
+    position: absolute;
+    justify-content: center;
+    top: 90px;
+    left: 50px;
+    color: #ffffff;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.small-text {
+    top: 70px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.box {
+    align-items: center;
+
+}
+
+.inside {
+    display: flex;
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    justify-content: space-between;
+    gap: 15px;
+    border-radius: 20px;
+    padding: 5px solid #ffffff;
+}
+
+div h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+div p,
+li {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+div span {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.m1 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.text-right {
+    padding: 30px;
+}
+
+div button {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.m2 {
+    margin-top: 50px;
+}
+
+.m3 {
+    display: flex;
+}
+
+div section {
+    border: #131318 5px;
+    background-color: aliceblue;
+    border-style: double;
+    margin: 15px;
+    padding: 10px;
+}
+
+.small-ttl {
+    display: flex;
+
+}
+
+#see {
+    margin: 0;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    height: 200px;
+    position: relative;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.mountain li {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+.lost{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 30px;
+}
+.news{
+    background: #FFF;
+    width: 40%;
+}
+.inte{
+    display:inline-flexbox;
+}
+.offer{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 50px;
+}
+.bel{
+    display: flex;
+    justify-content: center;
+}
+#soc{
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        
+}
+
+@media screen and (max-width: 576px){
+
+    .header{
+        padding: 20px;
+    }
+    .body{
+        width: 100%;
+    }
+    .offer{
+        
+
+    }
+    
+}
